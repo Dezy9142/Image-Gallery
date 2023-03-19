@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: #FAF9F6;
+}
+.container{
+    width:650px;
+    height:100vh;
+    border-radius: 8px;
+    /* border: 4px solid black; */
+    display:grid;
+    background-color: white;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap:4px;
+    margin: 12px;
+    padding: 2px;
+    box-shadow: 10px 10px 30px black;
+}
+.box:hover{
+    transform: scale(1.08);
+    box-shadow: 4px 4px 49px rgb(135, 131, 131);
+    filter: none;
+    transition: 0.5s;
+}
+.box{
+    height:200px;
+    width:200px;
+    background-color: aquamarine;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    filter: grayscale(100%);
+}
+#box1{
+    background-image: url('image1.jpg');
+}
+#box2{
+    background-image: url('image2.jpeg');
+}
+#box3{
+    background-image: url('image3.jpeg');
+}
+#box4{
+    background-image: url('image4.jpeg');
+}
+#box5{
+    background-image: url('image5.jpeg');
+}
+#box6{
+    background-image: url('image6.jpeg');
+}
+#box7{
+    background-image: url('image7.jpeg');
+}
+#box8{
+    background-image: url('image8.jpeg');
+}
+#box9{
+    background-image: url('image9.jpeg');
+}
